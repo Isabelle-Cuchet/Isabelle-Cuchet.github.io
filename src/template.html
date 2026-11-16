@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}">
+<link rel="icon" href="{{base}}/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#E1E8E8">
+<meta property="og:type" content="{{ogtype}}"><meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="{{title}}"><meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}"><meta property="og:image" content="{{ogimage}}">
+<meta name="twitter:card" content="summary_large_image">
+{{jsonld}}
+<style>{{css}}</style>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="{{base}}/"><b>{{name}}</b><span>Psychologue</span></a>
+<nav aria-label="Navigation principale">{{nav}}</nav>
+</div></header>
+<main id="main">{{content}}</main>
+<footer class="foot"><div class="wrap">
+<p><b>{{name}}</b> <i>·</i> N° ADELI : {{adeli}} <i>·</i> N° SIRET : {{siret}}</p>
+<p><a href="tel:{{phoneHref}}">{{phone}}</a> <i>·</i> <a href="mailto:{{email}}">{{email}}</a> <i>·</i> <a href="{{base}}/articles/">Questions fréquentes</a></p>
+</div></footer>
+</body>
+</html>
